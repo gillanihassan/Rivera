@@ -3,7 +3,7 @@ import { Button, Card, Col, Container, Image, Row } from "react-bootstrap";
 import styles from "./styles.module.css";
 import imgWork from "../../../images/workSection/imgWork.png";
 import iconOne from "../../../images/workSection/IconOne.png";
-import iconTwo from "../../../images/workSection/iconTwo.png";
+import iconTwo from "../../../images/workSection/IconTwo.png";
 import iconThree from "../../../images/workSection/iconThree.png";
 import iconFour from "../../../images/workSection/iconFour.png";
 
