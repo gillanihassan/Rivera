@@ -1,0 +1,28 @@
+.mainContainer{
+  background-color: #023430;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 40px;
+}
+.customPara{
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Lato';
+  font-style: italic;
+}
+.customLink{
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #B5D627;
+}
+
+@media (max-width: 480px) {
+  .mainContainer{
+    height: 64px;
+  }
+}

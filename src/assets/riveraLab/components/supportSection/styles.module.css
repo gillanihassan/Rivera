@@ -1,0 +1,78 @@
+.mainHeading{
+  font-family: "Playfair Display";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0px;
+  color: #003F28;
+}
+.firstPara{
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #555C69;
+}
+.secondPara{
+  font-family: "Lato";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  color: #00160E;
+}
+.columnDivOne{
+  border: 1px solid #33B885;
+  border-radius: 8px;
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 16px;
+  color: #003F28;
+}
+.columnDivTwo{
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  color: #6B7280;
+}
+.customImage{
+  width: 421px;
+  height: 400px;
+}
+@media (max-width: 1400px) {
+  .mainDiv{
+    padding: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .customImage{
+  width: 350px;
+  height: 316px;
+}
+ .mainDiv{
+    padding: 1rem;
+  }
+}
+@media (max-width: 680px) {
+  .customImage{
+  width: 300px;
+  height: 300px;
+}
+}
+@media (max-width: 620px) {
+  .customImage{
+  width: 285px;
+  height: 285px;
+}
+}
+@media (max-width: 576px) {
+  .customImage{
+  width: 333px;
+  height: 316px;
+}
+}

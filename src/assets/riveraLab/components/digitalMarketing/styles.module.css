@@ -1,0 +1,60 @@
+.mainDiv{
+  background-color: #023430;
+  border-radius: 2rem;
+  
+}
+.contentDiv{
+  padding: 5rem;
+}
+.leftimg{
+  width: 100%;
+  max-width: 524px;
+   /* aspect-ratio: 524 / 550; */
+  height: auto;
+}
+.mainHeading{
+  color: #FFFFFF;
+  font-family: 'Playfair Display';
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0px;
+}
+.customPara{
+  color: #FFFFFF;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+.footerHeading{
+  color: #FFFFFF;
+  font-family: 'Yeseva One';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0px ;
+  width: 100%;
+  max-width: 740px;
+}
+@media (max-width: 1400px) {
+  .mainDiv{
+    padding: 1rem;
+  }
+  .rootDiv{
+  padding: 2rem;
+}
+.contentDiv{
+  padding: 2rem;
+}
+}
+@media (max-width: 768px) {
+  .rootDiv{
+    padding: 0rem;
+  }
+  .contentDiv{
+  padding: 0rem;
+}
+}

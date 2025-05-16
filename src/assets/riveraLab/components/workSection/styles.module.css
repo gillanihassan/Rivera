@@ -1,0 +1,147 @@
+.mainDiv{
+  margin-top: 5rem;
+}
+.customHeading{
+  max-width: 740px;
+  font-family: 'Yeseva One';
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  color: #003F28;
+  text-align: center;
+   /* text-align: center; */
+  margin: 0 auto; 
+}
+.card{
+  width: 456px;
+  height: 220px;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+}
+.cardHeadingOne{
+  font-family: 'DM Mono';
+  font-weight: 500;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0px;
+  color: #33B885;
+}
+.cardHeadingTwo{
+  font-family: "Lato";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 26px;
+  color: #003F28;
+  margin-top: -10px;
+}
+.cardText{
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+  color: #555C69;
+}
+.headingSix{
+  font-family: 'DM Mono';
+  font-weight: 500;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0px;
+  color: #6B7280;
+}
+.sixPara{
+  font-family: "Lato";
+  font-weight: 400;
+  font-style: italic;
+  font: 18px;
+  letter-spacing: 0px;
+  color: #00160E;
+}
+.footerHeading{
+  font: "Yeseva One";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #003F28;
+}
+.cutomButton{
+padding: 20px 24px;
+border: none;
+border-radius: 8px;
+background-color: #B5D627;
+color: #003F28;
+font-weight: 700;
+font-size: 16px;
+font-family: "Lato";
+}
+.cutomButton:hover{
+background-color: #B5D627;
+color: #003F28;
+}
+.customImage{
+  width: 100%;
+  max-width: 585px;
+  height: auto;
+}
+@media (max-width: 1400px) {
+  .mainDiv{
+    padding: 2rem;
+  }
+}
+@media (max-width: 900px) {
+  .card{
+  width: 390px;
+  height: 250px;
+}
+/* .customImage{
+  width: 390px;
+  height: 294px;
+} */
+}
+@media (max-width: 767px) {
+  .mainDiv{
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+/* .customImage {
+  width: 100%;
+  max-width: 585px;
+  height: auto;
+} */
+.card{
+  width: 100%;
+  max-width: 704px;
+  height: 178px;
+  margin-top: 1rem;
+}
+}
+@media (max-width: 576px) {
+  .card{
+  height: 206px;
+}
+}
+@media (max-width: 465px) {
+  .card{
+  height: 240px;
+}
+}
+@media (max-width: 420px) {
+  .card{
+  height: 260px;
+}
+}
+@media (max-width: 385px) {
+  .card{
+  height: 290px;
+}
+}
+@media (max-width: 360px) {
+  .card{
+  height: 320px;
+}
+}

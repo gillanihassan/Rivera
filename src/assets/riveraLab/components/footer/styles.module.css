@@ -1,0 +1,8 @@
+.mainContainer{
+  margin-top: 20rem;
+}
+@media (max-width: 1400px) {
+  .mainContainer{
+    margin-top: 13rem;
+  }
+}

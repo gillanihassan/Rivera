@@ -1,0 +1,28 @@
+.navLink{
+  padding: 12px 24px !important;
+  font-family: 'Lato';
+  font-weight: 700;
+  font-style: italic;
+  font-size: 15px;
+  letter-spacing: -0.2px;
+  color: #003F28;
+}
+.navbarBtn{
+  padding: 16px 20px;
+  background-color: #B5D627;
+  color: #003F28;
+  font-weight: 'Lato';
+  font-weight: 700;
+  font-style: italic;
+  border: none;
+  border-radius: 8px;
+}
+.navbarBtn:hover{
+  background-color: #B5D627;
+  color: #003F28;
+}
+@media (max-width: 1400px) {
+  .navbar{
+    padding: 1rem;
+  }
+}
