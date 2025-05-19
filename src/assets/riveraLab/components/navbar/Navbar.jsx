@@ -22,7 +22,11 @@ function CustomNavbar() {
         <Navbar.Brand href="#">
           <Image src={NavbarLogo} />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Toggle
+          aria-controls="navbarScroll"
+          className={styles.customToggler}
+        />
+
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="mx-auto my-2 my-lg-0"

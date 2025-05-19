@@ -11,6 +11,7 @@ import QuestionSection from "./components/questionSection/QuestionSection";
 import SupportSection from "./components/supportSection/SupportSection";
 import Testimonial from "./components/testimonial/Testimonial";
 import WorkSection from "./components/workSection/WorkSection";
+import LogoSection from "./components/logoSection/LogoSection";
 
 function RiveraLab() {
   return (
@@ -18,6 +19,7 @@ function RiveraLab() {
       <AnnouncementBar />
       <Navbar />
       <HeroSection />
+      <LogoSection />
       <FullScreenImage />
       <BusinessStruggles />
       <SupportSection />

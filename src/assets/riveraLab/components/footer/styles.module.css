@@ -1,8 +1,90 @@
 .mainContainer{
-  margin-top: 20rem;
+  margin-top: 18rem;
+  padding: 0rem 3rem;
 }
 @media (max-width: 1400px) {
   .mainContainer{
     margin-top: 13rem;
   }
+}
+@media (max-width: 1130px) {
+  .mainContainer{
+  margin-top: 15rem;
+}
+}
+@media (max-width: 903px) {
+  .mainContainer{
+  margin-top: 19rem;
+}
+}
+@media (max-width: 846px) {
+  .mainContainer{
+  margin-top: 21rem;
+}
+}
+@media (max-width: 828px) {
+  .mainContainer{
+  margin-top: 22rem;
+}
+}
+@media (max-width: 767px) {
+    .mainContainer{
+  margin-top: 24.8rem;
+  padding: 0rem 1rem;
+}
+
+}
+@media (max-width: 699px) {
+    .mainContainer{
+  margin-top: 26.8rem;
+}
+
+}
+@media (max-width: 699px) {
+    .mainContainer{
+  margin-top: 28.8rem;
+}
+
+}
+@media (max-width: 630px) {
+    .mainContainer{
+  margin-top: 32.8rem;
+  padding: 0rem 1rem;
+}
+}
+@media (max-width: 576px) {
+    .mainContainer{
+  margin-top: 34.8rem;
+  padding: 0rem 1rem;
+}
+}
+@media (max-width: 505px) {
+    .mainContainer{
+  margin-top: 38.8rem;
+  padding: 0rem 1rem;
+}
+}
+@media (max-width: 480px) {
+    .mainContainer{
+  margin-top: 40.8rem;
+  padding: 0rem 1rem;
+}
+}
+@media (max-width: 462px) {
+    .mainContainer{
+  margin-top: 42.8rem;
+  padding: 0rem 1rem;
+}
+}
+@media (max-width: 454px) {
+    .mainContainer{
+  margin-top: 44.8rem;
+  padding: 0rem 1rem;
+}
+}
+@media (max-width: 400px) {
+    .mainContainer{
+  margin-top: 50.8rem;
+  padding: 0rem 1rem;
+}
 }

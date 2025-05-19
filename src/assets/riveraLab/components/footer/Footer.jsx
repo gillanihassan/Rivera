@@ -9,18 +9,18 @@ import iconThree from "../../../images/footer/iconThree.png";
 
 function Footer() {
   return (
-    <Container className={`mb-3 ${styles.mainContainer}`}>
+    <div className={`mb-3 container-xxl ${styles.mainContainer}`}>
       <Row>
-        <Col md={10}>
+        <Col xs={6} sm={9} md={9} lg={9} xl={10} xxl={10}>
           <Image src={Logo} />
         </Col>
-        <Col md={2}>
+        <Col xs={6} sm={3} md={3} lg={3} xl={2}>
           <Image src={iconOne} className="mx-3" />
           <Image src={iconTwo} className="mx-3" />
           <Image src={iconThree} className="mx-3" />
         </Col>
       </Row>
-    </Container>
+    </div>
   );
 }
 

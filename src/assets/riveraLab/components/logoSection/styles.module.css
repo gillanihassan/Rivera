@@ -1,4 +1,24 @@
-.image{
-  height: 100px;
-  width: 100px;
+.mainContainer{
+  /* border: 2px solid red; */
+  padding: 0rem 3rem;
+}
+@media (max-width: 1400px) {
+  .mainContainer{
+    padding: 0rem 4rem;
+  }
+}
+@media (max-width: 1200px) {
+  .mainContainer{
+    padding: 0rem 3rem;
+  }
+}
+@media (max-width: 992px) {
+  .mainContainer{
+    padding: 0rem 2rem;
+  }
+}
+@media (max-width: 576px) {
+  .mainContainer{
+    padding: 0rem 1.2rem;
+  }
 }
